@@ -37,19 +37,23 @@ cd "C:/Git/Project1"
 !git commit -m "Commit 1" 
 !git push -u origin main
 
+******************************
+*make more changes locally.
+******************************
 
-
-
-
-!echo This is the 3rd line >> "C:/Git/MyProjects/Project4a/one.txt"
-!echo This is the 3rd line >> "C:/Git/MyProjects/Project4a/two.txt"
-!echo This is the 3rd line >> "C:/Git/MyProjects/Project4a/myfolder/three.txt"
-!echo This is the 4th line >> "C:/Git/MyProjects/Project4a/myfolder/three.txt"
+!echo This is the 3rd line >> "./one.txt"
+!echo This is the 3rd line >> "./two.txt"
+!echo This is the 3rd line >> "./myFolder/three.txt"
+!echo This is the 4th line >> "./myFolder/three.txt"
 
 *staged->commit->push to remote.
 !git add --all
 !git commit -m "Commit 2" 
 !git push -u origin main
+
+
+
+
 
 *add README.md
 !echo # Project4a >> "C:/Git/MyProjects/Project4a/README.md"
