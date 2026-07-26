@@ -4,7 +4,7 @@
 !git config --global user.name "Shaun Scholes"
 !git config --global user.email "s.scholes@ucl.ac.uk"
 !git --version
-!mkdir "C:/Git/"
+cd "C:/Git/"
 !git clone https://github.com/shauns11/Project1.git
 cd "C:/Git/Project1" 
 
