@@ -64,45 +64,41 @@ erase "./README.md"
 !git commit -m "Commit 4" 
 !git push -u origin main // README.md now deleted from remote.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-*create a branch
+*Locally: create a branch
 !git branch dev
 !git switch dev
-!type nul > "C:/Git/MyProjects/Project4a/onea.txt"
-!echo "This is dev text" > "C:/Git/MyProjects/Project4a/onea.txt"
-!echo This is the 2nd line >> "C:/Git/MyProjects/Project4a/onea.txt"
-!echo This is the 3rd line >> "C:/Git/MyProjects/Project4a/onea.txt"
-!echo This is the 4th line >> "C:/Git/MyProjects/Project4a/onea.txt"
-!echo This is the 5th line >> "C:/Git/MyProjects/Project4a/onea.txt"
-!echo This is the 6th line >> "C:/Git/MyProjects/Project4a/onea.txt"
+!type nul > "./onea.txt"
+!echo This is the 1st line >> "./onea.txt"
+!echo This is the 2nd line >> "./onea.txt"
+!git add "./onea.txt"
+!git commit -m "Commit 5:file in dev branch" 
 
-*add and commit.
-!git add "C:/Git/MyProjects/Project4a/onea.txt"
-!git commit -m "Commit 6:file in dev branch" 
-
-!git switch main                              // Go back to the main branch
-!git merge dev                                // Merge. 
-!git push -u origin main                      // Push to remote
-
+*Merge to main and push to remote.
+!git switch main                              
+!git merge dev                                
+!git push -u origin main                      
 !git log
 !git show
 
 di "finished"
-*************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
